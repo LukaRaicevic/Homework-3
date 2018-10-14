@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-header {
+        padding-top: 50px;
+    }
+    
+    .lang {
+        top: 0;
+        right: 0;
+    }
+}
+
+.to-top {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    color: white;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.to-top:hover {
+    background-color: rgb(0, 68, 255);
+}
+
+#hdr {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.lang {
+    position: fixed;
+    background-color: white;
+    top: 6%;
+    right: 3%;
+    width: 70px;
+    height: 30px;
+    border-radius: 5%;
+}
+
+.lang:hover {
+    color: rgb(0, 60, 255);
+}
+
+.logo-header {
+    padding-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 3.5rem;
+}
+
+.main-btn-hdr {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.main-btn-hdr button {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 2%;
+}
+
+.main-btn-hdr button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.small {
+    padding-top: 15px;
+    font-size: 0.75rem;
+    text-align: center;
+    color: gray;
+}
+
+.big {
+    padding-top: 80px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+
+.scroll-icon {
+    padding-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wo-ftr {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+}
+
+.below-hdr {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-left: 14%;
+    padding-right: 14%;
+    padding-bottom: 50px;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.below-hdr-left {
+    padding-right: 12%;
+}
+
+.below-hdr-right p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+.below-hdr-right button {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 3%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.below-hdr-right button:hover {
+    border: 1px solid rgb(0, 89, 255);
+    cursor: pointer;
+}
+
+.blue-ltrs {
+    color: rgb(0, 110, 255);
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+.ftrs {
+    text-align: center;
+    flex-grow: 1;
+    border-left: 1px solid rgb(182, 181, 181);
+}
+
+.last-ftr {
+    border-right: 1px solid rgb(182, 181, 181);
+}
+
+.below-hdr2 {
+    padding-top: 50px;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.nmbr {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(212, 212, 212);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.the-pctr {
+    width: 300px;
+    height: 200px; 
+    padding: 70px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 2%;
+}
+
+.pctr-div13 {
+    padding-left: 4%;
+    padding-right: 6%;
+}
+
+.pctr-div2 {
+    padding-left: 6%;
+    padding-right: 4%;
+}
+
+.pctrs-txt h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.pctrs-txt p {
+    color: rgb(78, 78, 78);
+    line-height: 25px;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.more-about-btn {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 3%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 110, 255);
+}
+
+.more-about-btn:hover {
+    border: 1px solid rgb(0, 89, 255);
+    cursor: pointer;
+}
+
+.pctrs-txt .smaller-p-3 {
+    font-size: 0.8rem;
+    color: rgb(139, 139, 139);
+}
+
+.pctrs-div3 {
+    padding-bottom: 45px;
+}
+
+.small2 {
+    padding-bottom: 80px;
+}
+
+.main-list {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+
+.main-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+.main-list ul li {
+    font-size: 1.2rem;
+    line-height: 50px;
+}
+
+.before-ftr {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bfr-ftr-item1 {
+    flex-grow: 1;
+    padding-left: 150px;
+    padding-right: 70px;
+}
+
+.bfr-ftr-item2 {
+    flex-grow: 1;
+    padding-right: 120px;
+}
+
+.bfr-ftr-pctr {
+    height: 320px;
+    width: 500px;;
+}
+
+.bfr-ftr-item1-p1 {
+    font-size: 1.6rem;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.bfr-ftr-item1 button {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 2%;
+}
+
+.bfr-ftr-item1 button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.small3 {
+    padding-top: 15px;
+    font-size: 0.75rem;
+    color: gray;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.logo-ftr {
+    width: 200px;
+    height: 60px;
+    padding-left: 9%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: orange;
+}
+
+.mail {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.ftr-div {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.ftr-div1-1 {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    line-height: 40px;
+}
+
+.ftr-div1-1 li p {
+    color: gray;
+}
+
+.empty {
+    border-top: 1px solid gray;
+}
+
+.ftr-div2 {
+    justify-content: space-between;
+}
+
+.last-p {
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.ftr-div2 button {
+    background-color: rgb(44, 44, 44);
+    width: 70px;
+    height: 30px;
+    border-radius: 5%;
+    color: white;
+}
+
+.ftr-div2 button:hover {
+    background-color: white;
+    color: rgb(0, 60, 255); 
+}
