@@ -11,17 +11,6 @@ body {
     background-color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    .logo-header {
-        padding-top: 50px;
-    }
-    
-    .lang {
-        top: 0;
-        right: 0;
-    }
-}
-
 .to-top {
     position: fixed;
     right: 0;
@@ -299,7 +288,7 @@ body {
 
 .bfr-ftr-pctr {
     height: 320px;
-    width: 500px;;
+    width: 500px;
 }
 
 .bfr-ftr-item1-p1 {
@@ -401,4 +390,150 @@ footer ul li a:hover {
 .ftr-div2 button:hover {
     background-color: white;
     color: rgb(0, 60, 255); 
+}
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .logo-header {
+        padding-top: 50px;
+    }
+    
+    .lang {
+        top: 10px;
+        right: 10px;
+    }
+
+    .large {
+        text-align: center;
+        padding-top: 40px;
+        font-size: 2.3rem;
+    }
+
+    .small, .small3, .scroll-icon {
+        display: none;
+    }
+
+    .logo-header {
+        width: 200px;
+        height: 40px;
+    }
+
+    .wo-ftr {
+        top: 70%;
+        max-width: 100%;
+    }
+
+    .below-hdr {
+        border-top: 1px solid gray;
+    }
+
+    .below-hdr-left {
+        display: none;
+    }
+
+    .below-hdr-right {
+        text-align: center;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .ftrs {
+        border: none;
+        border-bottom: 1px solid gray;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .last-ftr {
+        border: none;
+        padding-bottom: 0;
+    }
+
+    .pictures {
+        flex-direction: column;
+    }
+
+    .the-pctr {
+        width: 230px;
+        height: 130px;
+        border: none;
+        padding: 5%;
+    }
+
+    .pctrs-txt h2 {
+        font-size: 1.3rem;
+    }
+
+    .pctr-div13, .pctr-div2 {
+        text-align: center;
+    }
+
+    .more-about-div {
+        text-align: center;
+    }
+
+    .main-btn-bdy {
+        padding-top: 0%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .main-list {
+        max-width: 100%;
+    }
+
+    .main-list ul {
+        padding-left: 5%;
+    }
+
+    .main-list ul li {
+        line-height: 40px;
+    }
+    
+    .before-ftr {
+        flex-direction: column;
+    }
+
+    .bfr-ftr-item1 {
+        padding: 5%;
+        padding-top: 0%;
+    }
+
+    .bfr-ftr-item2 {
+        padding: 3%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .bfr-ftr-pctr {
+        width: 400px;
+        height: 200px;
+    }
+
+    .logo-ftr {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0; 
+    }
+
+    .ftr-div {
+        flex-direction: column;
+    }
+
+    .ftr-div2 {
+        flex-direction: row;
+    }
+
+    .ftr-div1-1 {
+        padding-left: 30%;
+    }
 }
