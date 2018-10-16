@@ -422,8 +422,12 @@ footer ul li a:hover {
         height: 40px;
     }
 
+    .big {
+        padding-top: 5%;
+    }
+
     .wo-ftr {
-        top: 70%;
+        top: 75%;
         max-width: 100%;
     }
 
